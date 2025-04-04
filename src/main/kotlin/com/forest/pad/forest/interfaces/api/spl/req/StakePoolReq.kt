@@ -1,6 +1,6 @@
-package com.forest.pad.forest.interfaces.api.sol.req
+package com.forest.pad.forest.interfaces.api.spl.req
 
-data class SolMintReq(
+data class StakePoolReq(
     val name: String,
     val symbol: String,
     val uri: String,
