@@ -4,6 +4,7 @@ data class StakePoolReq(
     val name: String,
     val symbol: String,
     val uri: String,
-    val sellerFeeBasisPoints: String,
+    val originTokenAddress: String,
+    val sellerFeeBasisPoints: Long,
     val creators: String? = null
 )
